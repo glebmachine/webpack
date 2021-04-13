@@ -1148,6 +1148,11 @@ declare interface CodeGenerationContext {
 	 * when in concatenated module, information about other concatenated modules
 	 */
 	concatenationScope?: ConcatenationScope;
+
+	/**
+	 * current module require context
+	 */
+	context?: string;
 }
 declare interface CodeGenerationResult {
 	/**
